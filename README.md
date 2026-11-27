@@ -1,5 +1,7 @@
 # Deterministic word-RAM 3SUM at exponent 1.960614
 
+**Cite the technical report and archived proof artifacts:** [DOI 10.5281/zenodo.23408567](https://doi.org/10.5281/zenodo.23408567) (Zenodo, version 1.0.0). This DOI identifies the report and its accompanying artifacts, not all future revisions of this repository.
+
 The entry point is `Race.bound` in `Submission.lean`, with exact rational bound
 980307/500000 and the unchanged official `EndStatement.ThreeSum` specification.
 The official verifier supplies Lean 4.33.1 and its pinned Mathlib environment.
